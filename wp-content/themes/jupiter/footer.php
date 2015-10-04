@@ -406,6 +406,7 @@ window.snowplow('newTracker', 'cf', 'snowplow-clojure.elasticbeanstalk.com', { /
   cookieDomain: 'lessig-campaign.dmaust.net'
 });
 
+window.snowplow('enableActivityTracking', 10, 10);
 window.snowplow('trackPageView');
 </script>
 
